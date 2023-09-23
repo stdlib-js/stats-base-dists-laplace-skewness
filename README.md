@@ -67,7 +67,7 @@ The [skewness][skewness] for a [Laplace][laplace-distribution] random variable w
 ## Usage
 
 ```javascript
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace-skewness@deno/mod.js';
+import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace-skewness@v0.1.0-deno/mod.js';
 ```
 
 #### skewness( mu, b )
@@ -127,7 +127,7 @@ y = skewness( 0.0, -1.0 );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace-skewness@deno/mod.js';
+import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace-skewness@v0.1.0-deno/mod.js';
 
 var mu;
 var b;
