@@ -67,7 +67,7 @@ The [skewness][skewness] for a [Laplace][laplace-distribution] random variable w
 ## Usage
 
 ```javascript
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace-skewness@esm/index.mjs';
+import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace-skewness@v0.3.0-esm/index.mjs';
 ```
 
 #### skewness( mu, b )
@@ -133,7 +133,7 @@ y = skewness( 0.0, -1.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace-skewness@esm/index.mjs';
+import skewness from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-laplace-skewness@v0.3.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
